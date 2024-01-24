@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --whatsapp-primary-color: #0c6157;
+  --whatsapp-secondary-color: #08c832;
+  --text-color: #fff;
+  --body-color: #fff;
+}
+
+body {
+  background-color: var(--whatsapp-secondary-color);
+}
+
+.Whatsapp-bgcolor {
+  background-color: var(--whatsapp-primary-color);
+  color: var(--text-color);
+}
+
+header > section > .Whatsapp-header > div > h1 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+header > section > .Whatsapp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+header .header-icons {
+  display: flex;
+  gap: 15px;
+}
+
+header .header-components {
+  display: flex;
+  padding: 15px 15px 3px 15px;
+}
+
+header .header-components .list-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 13px;
+  position: relative;
+}
+
+.chat-counts {
+  position: absolute;
+  top: 1px;
+  left: 73px;
+  width: 20px;
+  height: 20px;
+  font-size: smaller;
+  background-color: var(--whatsapp-secondary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-components .list-items li span {
+  background: var(--whatsapp-secondary-color);
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: small;
+}
+header .header-components .list-items li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+header .header-components {
+  position: relative;
+}
+
+header .header-components .list-items .border {
+  width: 55px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 25px;
+}
+
+main .whasapp-body {
+  background: var(--body-color);
+}
+
+main .chats img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+main .chats {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 0 0;
+}
+
+main .chats:hover {
+  background-color: #80808033;
+}
+
+main .time {
+  font-size: small;
+  margin-left: auto;
+  padding: 1px 20px;
+  margin-bottom: 25px;
+  color: var(--whatsapp-secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .message-count {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--whatsapp-secondary-color);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 13px;
+  margin-top: 12px;
+}
