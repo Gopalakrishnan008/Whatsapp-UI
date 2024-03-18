@@ -3,7 +3,6 @@ Whatsapp Ui design using HTML,CSS+TAILWINDCSS.
 
 ### live:[Whatsapp](https://gopalakrishnan008.github.io/Whatsapp-UI/)
 
-### screeenshorts:
 
 ### License: [MIT](/LICENCE)
 
