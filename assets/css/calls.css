@@ -36,8 +36,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
     
 }
 .camicon{
-    margin-left: 180px;
+    margin-left: auto;
 }
